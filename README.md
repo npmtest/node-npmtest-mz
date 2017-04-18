@@ -1,7 +1,10 @@
-# test coverage for  [mz (v2.6.0)](https://github.com/normalize/mz#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mz.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mz) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mz.svg)](https://travis-ci.org/npmtest/node-npmtest-mz)
+# npmtest-mz
+
+#### test coverage for  [mz (v2.6.0)](https://github.com/normalize/mz#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mz.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mz) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mz.svg)](https://travis-ci.org/npmtest/node-npmtest-mz)
+
 #### modernize node.js to current ECMAScript standards
 
-[![NPM](https://nodei.co/npm/mz.png?downloads=true)](https://www.npmjs.com/package/mz)
+[![NPM](https://nodei.co/npm/mz.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mz)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-mz/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mz/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mz/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mz/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mz/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-mz/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-mz/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-mz%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-mz/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-mz/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-mz/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-mz%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mz/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-mz/build/test-report.html](https://npmtest.github.io/node-npmtest-mz/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-mz/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-mz/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-mz/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-mz/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-mz/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-mz/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-mz/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Jonathan Ong",
-        "email": "me@jongleberry.com",
         "url": "http://jongleberry.com"
     },
     "bugs": {
@@ -71,41 +79,32 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "coderhaoxin",
-            "email": "coderhaoxin@outlook.com"
+            "name": "coderhaoxin"
         },
         {
-            "name": "dead-horse",
-            "email": "dead_horse@qq.com"
+            "name": "dead-horse"
         },
         {
-            "name": "dead_horse",
-            "email": "dead_horse@qq.com"
+            "name": "dead_horse"
         },
         {
-            "name": "evancarroll",
-            "email": "me@evancarroll.com"
+            "name": "evancarroll"
         },
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         },
         {
-            "name": "linusu",
-            "email": "linus@folkdatorn.se"
+            "name": "linusu"
         },
         {
-            "name": "rstacruz",
-            "email": "dropbox@ricostacruz.com"
+            "name": "rstacruz"
         },
         {
-            "name": "swatinem",
-            "email": "arpad.borsos@googlemail.com"
+            "name": "swatinem"
         }
     ],
     "name": "mz",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/normalize/mz.git"
