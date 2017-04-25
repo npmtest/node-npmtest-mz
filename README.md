@@ -1,6 +1,6 @@
 # npmtest-mz
 
-#### test coverage for  [mz (v2.6.0)](https://github.com/normalize/mz#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mz.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mz) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mz.svg)](https://travis-ci.org/npmtest/node-npmtest-mz)
+#### basic test coverage for  [mz (v2.6.0)](https://github.com/normalize/mz#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mz.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mz) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mz.svg)](https://travis-ci.org/npmtest/node-npmtest-mz)
 
 #### modernize node.js to current ECMAScript standards
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mz/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mz/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mz/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mz/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mz/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mz/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mz/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mz/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mz/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mz/build/coverage.html/index.html)
 
@@ -114,7 +114,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
     },
-    "version": "2.6.0"
+    "version": "2.6.0",
+    "bin": {}
 }
 ```
 
